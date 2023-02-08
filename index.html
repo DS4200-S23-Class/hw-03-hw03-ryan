@@ -3,12 +3,55 @@
 
 <head>
     <meta charset=utf-8/>
+    <title>hw-03</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 
 <body>
-
-
+    <h1 id="header1">hw-03: Interactive Webpage, and Marks & Channels</h1>
+    <button type="button" onclick="colorChanger()">Click Me!</button>
+    <script src="scripting.js"></script>
+    <div class="box">
+        <div>
+            <img src="vis1.png" alt="vis1">
+            <img src="vis2.png" alt="vis2">
+            <img src="hispanicpop.png" alt="hispanicpop">
+        </div>
+        <div class="left">
+            <h2>Visualization #1</h2>
+            <h3>Marks and Channels</h3>
+            <ul>
+                <li>Mark: Area</li>
+                <li>Channel: Position (Both), Shape, Color</li>
+                <li>Attribute: Geographical Location, Geographical Region, Voting Results</li>
+                <li>Reasoning: The usage of mapping in this visualization is excellent. Since the data being represented is geospatial in nature, a 2D representation of the United States with each state distinguished with borders allows for easy identification and comparision. In addition, the usage of a categorical colormapping is a good choice as the data in question (FPTP polling data) can be easily represented using either red or blue which are also associated with the Republican and Democratic parties respectively.</li>
+            </ul>
+            <h2>Visualization #2</h2>
+            <h3>Marks and Channels</h3>
+            <ul>
+                <li>Mark: Point</li>
+                <li>Channel: Position (Both), Color </li>
+                <li>Attribute: Launch Angle and Exit Velocity, Scoring Value</li>
+                <li>Reasoning: The usage of mapping in this visualization is well-executed. Since the data includes two variable attributes that are being compared against one another for correlation, the usage of a bi-directional position channel allows for easy identification and conclusions. The usage of a divergent colormap is a good choice as the data in question ranges on a spectrum between two extremes (very below average and very above average) with a distinct middle ground (average).</li>
+            </ul>
+            <h2>Visualization #3</h2>
+            <h3>Marks and Channels</h3>
+            <ul>
+                <li>Mark: Line</li>
+                <li>Channel: Position (both), Color</li>
+                <li>Attribute: Population Percentage, Year, Neighborhood</li>
+                <li>Reasoning: The usage of mapping in this visualization is good. The data includes one attribute (Hispanic Population Percentage) over a period of time (Years) so utilizing a bi-directional position channel allows for quick conclusions on trends over time. The usage of a categorical colormap is also a good choice as it allows for the Neighborhood attribute to be represented as distinct plots on the graph.</li>
+            </ul>
+        </div>
+    </div>
+    <h2 class="center">Acknowledgements</h2>
+    <div>
+        <ul>
+            <li>Lecture #5 Slidedeck</li>
+            <li>Lecture #6 Slidedeck</li>
+        </ul>
+    </div>
 </body>
 
 </html>

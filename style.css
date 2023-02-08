@@ -1,0 +1,16 @@
+body{
+	font-family: Arial;
+}
+h1{
+	text-align: center;
+}
+.box{
+	display: flex;
+	justify-content: space-between;
+}
+.left{
+	justify-content: left;
+}
+.center{
+	text-align: center;
+}
